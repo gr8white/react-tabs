@@ -1,5 +1,5 @@
 import React from 'react'
-import LogInForm from './Login';
+import Login from './Login';
 
 const LoginForm = ({handleSubmit, handleChangePassword, handleChangeUsername, usernameVal, passwordVal, showAlert, alertMessage}) => {
   return (

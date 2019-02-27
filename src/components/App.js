@@ -4,6 +4,7 @@ import Tabs from './Tabs';
 import HelloReact from './HelloReact';
 import LoremIpsum from './LoremIpsum'
 import LogInForm from './Login';
+import FunPeople from './FunPeople'
 
 class App extends Component {
   constructor(props) { // Shortcut: rconst
@@ -29,6 +30,7 @@ class App extends Component {
           {this.state.activeTab === 0 ? <HelloReact /> : null}
           {this.state.activeTab === 1 ? <LoremIpsum /> : null}
           {this.state.activeTab === 2 ? <LogInForm /> : null}
+          {this.state.activeTab === 3 ? <FunPeople /> : null}
         </div>
       </section>
     );

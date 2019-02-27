@@ -20,6 +20,10 @@ export default class Tabs extends Component {
           isActive={activeTab === 2}
           label='Login Form' 
           handleClick={() => changeTab(2)}/>
+          <Tab 
+          isActive={activeTab === 3}
+          label='Funny People' 
+          handleClick={() => changeTab(3)}/>
         </ul>
       </div>
     )

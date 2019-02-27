@@ -5,7 +5,7 @@ export default class LoremIpsum extends Component {
     super(props)
   
     this.state = {
-      numParagraphs: 0
+      numParagraphs: 2
     }
   }
 
@@ -17,7 +17,6 @@ export default class LoremIpsum extends Component {
     if (this.state.numParagraphs === 0) return;
     this.setState({numParagraphs: this.state.numParagraphs - 1})
   }
-  
   
   render() {
     return (
